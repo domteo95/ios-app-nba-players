@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="FavList" representedClassName=".FavList" syncable="YES" codeGenerationType="class">
+        <attribute name="assists" optional="YES" attributeType="String" customClassName="player"/>
+        <attribute name="blocks" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="minutes" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String" customClassName="[player]"/>
+        <attribute name="per" optional="YES" attributeType="String"/>
+        <attribute name="points" optional="YES" attributeType="String"/>
+        <attribute name="rebounds" optional="YES" attributeType="String"/>
+        <attribute name="steals" optional="YES" attributeType="String"/>
+        <attribute name="team_name" optional="YES" attributeType="String"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="name"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="InjuredList" representedClassName=".InjuredList" syncable="YES" codeGenerationType="class">
+        <attribute name="injury_date" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="name"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <elements>
+        <element name="FavList" positionX="-54" positionY="-9" width="128" height="193"/>
+        <element name="InjuredList" positionX="-36" positionY="36" width="128" height="73"/>
+    </elements>
+</model>
