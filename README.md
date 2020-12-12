@@ -1,6 +1,11 @@
 
 # iOS Mobile App NBA Players Project using Xcode and Swift 
 
+![](https://img.shields.io/badge/swift-6.0-red)
+![](https://img.shields.io/badge/platform-iOS-gray)
+![](https://img.shields.io/badge/Xcode-12-green)
+![](https://img.shields.io/badge/License-MIT-blue.svg)
+
 Video run through of how to use this app and its various features can be found in this YouTube [video](https://www.youtube.com/watch?v=xEQHiAIzgE8). 
 
 
